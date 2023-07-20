@@ -9,3 +9,5 @@ jobs:
       - name: hi
         run: |
            echo "hello"
+      - name: fail test
+        run: exit 1;
